@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        section{
+            display: flex;
+            gap: 3rem;
+            background-color: blue;
+            height: auto;
+        }
+        .Link1:link{
+            background-color: green;
+            text-decoration: none;
+
+        }
+        .Link2:visited{
+            color: red;
+        }
+
+        .Link3:active{
+            background-color: aqua;
+            color: black;
+
+        }
+        .Link4:hover{
+            font: 5rem;
+            background-color: yellow ;
+        }
+        .freshLink{
+            color: red;
+            text-decoration: none;
+
+        }
+        .freshLink:link{
+            color: yellow;
+
+        }
+        .freshLink:visited{
+            color: green;
+
+        }
+        .freshLink:active{
+            color: purple;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <a class="Link1" href="">Unvisited</a>
+        <a class="Link2" href="">Visited</a>
+        <a class="Link3" href="">Active</a>
+        <a class="Link4" href="">Hover</a>
+
+        <a class="freshLink" target="_blank" href="https://www.gtbank.com/">This fresh link goes to facebook</a>
+    </section>
+    
+</body>
+</html>
